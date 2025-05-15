@@ -1,0 +1,7 @@
+{
+    "name": "srvx-esbuild-deno-repro",
+    "dependencies": {
+        "esbuild": "^0.25.4",
+        "srvx": "^0.7.1"
+    }
+}
