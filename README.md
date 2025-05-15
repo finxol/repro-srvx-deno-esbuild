@@ -1,4 +1,4 @@
-# Reproduction repo for issue # with srvx
+# Reproduction repo for issue [#72](https://github.com/h3js/srvx/issues/72) with srvx
 
 ## Run the reproduction
 
@@ -13,7 +13,7 @@ deno run --allow-env --allow-read --allow-run ./bundle.ts
 deno run --allow-env --allow-net out/main.js
 ```
 
-This gives us broken headers. Notice content-type seems to be broken into `c` and `t`.
+This gives us broken headers. Notice how content-type seems to be broken into `c` and `t`.
 
 ```sh
 finxol ~ » curl -v http://localhost:1993/
